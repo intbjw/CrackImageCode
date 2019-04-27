@@ -1,7 +1,7 @@
 import tesserocr
 from PIL import Image
 
-image = Image.open('code2.jpg')
+image = Image.open('v1.jpg')
 
 image = image.convert('L')
 threshold = 127
